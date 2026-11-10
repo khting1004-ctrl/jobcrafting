@@ -1,9 +1,30 @@
-# Job Crafting V7 — Netlify deploy
+# 꿈쓰는회사 × 권글 잡크래프팅 통합 홈페이지 V8
 
-- index.html: main website
-- curriculum.html: 2/4/8/16-hour curriculum and detailed lesson plans
-- proposal.html: new client-side proposal builder with print, HTML export, mailto draft
-- research.html: research overview
-- assets/: original PDF and Word documents
+## 포함 페이지
+- `index.html` — 기업교육 통합 메인
+- `curriculum.html` — 교육과정 및 상세 강의계획안
+- `practice.html` — **신규** 직무·교육시간 맞춤 인터랙티브 실습 스튜디오
+- `proposal.html` — 기업교육 제안서 자동 생성(로컬 전용)
+- `research.html` — 연구 보고서
+- `assets/` — 기존 PDF / DOCX 문서
 
-Upload the ZIP as a full site deploy to Netlify. No build command or API key is required. Proposal data is not sent to a server; do not enter confidential or personal data. The email button opens the user's mail client; it does not send mail automatically. Dates, prices and instructor availability remain unconfirmed.
+## 설치 및 배포
+Netlify의 해당 사이트 > Deploys에서 `Kwongeul_JobCrafting_Practice_V8_Netlify.zip`을 통째로 수동 배포합니다.
+사이트 주소가 `https://EXAMPLE.netlify.app/`이라면 실습 페이지는 `https://EXAMPLE.netlify.app/practice.html`입니다.
+압축 최상위에 index.html이 있어야 하며 `practice.html`도 같은 최상위에 있어야 합니다.
+
+## V8 신규 실습
+- 참여 대상 5개(일반 실무/기획홍보마케팅교육/팀리더/1인전문가/일반성인)
+- 교육 시간 2/4/8/16시간별 실습 선택, 자동 세부 시간표
+- 10개 인터랙티브 모듈(업무 목적, 주간 업무시간·에너지, 강점, 3영역 크래프팅, 관계자 지도, 시나리오, AI 보안·프롬프트 초안, 프로세스 시제품, 개선 시간/품질 비교, 7·14일 실험카드)
+- 직무별 예제 불러오기(모든 수치는 교육용 예시), 입력 자동 로컬 저장, JSON 백업/복원, 시간표 CSV, 브라우저 PDF 인쇄, 회차별 현업 실험 로그
+
+## 보안과 운영상의 한계
+- 실습 자료는 웹서버로 전송하지 않으며 브라우저 localStorage에 보관합니다. 브라우저 설정이나 사생활 보호 모드에서 저장이 제한될 수 있으므로 백업 사용을 안내합니다.
+- 다른 기기/브라우저 사이 자동 동기화, 강사 관리자 수집, 로그인, 이메일 발송, AI API 호출은 구현하지 않았습니다.
+- 기관의 개인정보와 기밀업무 내용은 입력하지 마세요. 비식별 예제 사용을 권장합니다.
+- 시간 비교 계산값은 가정/입력 기반 수치이지 검증된 교육 성과가 아닙니다.
+- 미시간대학교의 상용 Job Crafting Exercise 워크북/도형을 복제하지 않고, 공공 학술 자료의 개념에 기반해 교육용 독자 프로그램을 제작했습니다.
+
+## 자료 출처
+`practice.html` 하단의 연구 근거 및 외부 URL을 참조하세요.
