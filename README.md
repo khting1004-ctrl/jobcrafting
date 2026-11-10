@@ -1,19 +1,9 @@
-# Kwongeul Job Crafting Website V6
+# Job Crafting V7 — Netlify deploy
 
-Netlify용 정적 웹사이트입니다. 압축파일을 Netlify에 그대로 업로드하면 `index.html`이 홈으로 작동합니다.
+- index.html: main website
+- curriculum.html: 2/4/8/16-hour curriculum and detailed lesson plans
+- proposal.html: new client-side proposal builder with print, HTML export, mailto draft
+- research.html: research overview
+- assets/: original PDF and Word documents
 
-- `index.html`: 통합 소개, 사례, 온라인 실습, 성과 계산기, 연구와 자료실
-- `curriculum.html`: **신규** 별도의 교육과정 상세 페이지 및 선택 과정별 강의계획안
-- `research.html`: 연구근거 보고서
-- `assets/`: 기존 4차 강의계획서와 1차 워크북 PDF·DOCX
-
-### 사용 방법
-
-홈 > 교육과정 안내에서 상세 페이지로 이동합니다. 상세 페이지에서 2·4·8·16시간을 선택하면 교육과정, 모듈, 강의계획안이 함께 바뀝니다. URL `curriculum.html?course=16`으로 특정 과정을 바로 공유할 수 있습니다.
-
-- 시간표는 휴식을 제외한 순수 학습시간을 표시합니다.
-- 웹 V6 상세 강의계획안은 자체 개발 초안이고, 첨부 문서 파일은 기존 V4 원문입니다.
-- 온라인 워크북 기록은 브라우저 내 저장소에 보관되며, 공용기기에서는 저장 내용 삭제를 권장합니다.
-- 기관 정책에 따라 보안 및 운영 조건을 최종 협의해야 합니다.
-
-Netlify: 새 사이트 테스트 업로드 후 확인을 권장합니다. 기존 사이트 덮어쓰기 전 배포 이력을 확인하세요.
+Upload the ZIP as a full site deploy to Netlify. No build command or API key is required. Proposal data is not sent to a server; do not enter confidential or personal data. The email button opens the user's mail client; it does not send mail automatically. Dates, prices and instructor availability remain unconfirmed.
