@@ -1,0 +1,7 @@
+(()=>{'use strict';
+const raw=document.getElementById('v11-evidence-data');if(!raw)return;
+const data=JSON.parse(raw.textContent);const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const q=document.getElementById('rd-source-query'),type=document.getElementById('rd-source-type'),domain=document.getElementById('rd-source-domain'),out=document.getElementById('rd-source-results'),count=document.getElementById('rd-source-count');
+function render(){let query=q.value.trim().toLowerCase();let result=data.filter(x=>(!type.value||type.value===x.kind)&&(!domain.value||domain.value===x.domain)&&(!query||[x.title,x.who,x.support,x.limit,x.use,x.id].join(' ').toLowerCase().includes(query)));count.textContent=`${result.length}건 / 검토한 자료 ${data.length}건`;out.innerHTML=result.map(x=>`<article class="rd-source-row"><div class="rd-source-meta"><span>${esc(x.id)}</span><span>${esc(x.year)}</span><span>${esc(x.kind)}</span><span>${esc(x.domain)}</span></div><div class="rd-source-body"><h3>${esc(x.title)}</h3><p>${esc(x.who)}</p><p><strong>뒷받침하는 내용</strong> · ${esc(x.support)}</p><p class="rd-warning-text"><strong>해석의 한계</strong> · ${esc(x.limit)}</p><p><strong>강의 연결</strong> · ${esc(x.use)}</p><a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">원문·공식 안내 열기 ↗</a></div></article>`).join('')||'<p class="rd-empty">조건에 맞는 자료가 없습니다.</p>'}
+[q,type,domain].forEach(el=>el.addEventListener('input',render));render();
+})();

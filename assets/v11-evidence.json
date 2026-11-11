@@ -1,0 +1,110 @@
+[
+  {
+    "id": "E01",
+    "title": "Crafting a Job: Revisioning Employees as Active Crafters of Their Work",
+    "who": "Wrzesniewski & Dutton",
+    "year": "2001",
+    "kind": "개념·원전",
+    "domain": "잡크래프팅",
+    "url": "https://doi.org/10.5465/amr.2001.4378011",
+    "support": "과업·관계·인지적 경계를 개인이 조정한다는 개념의 토대",
+    "limit": "개념 논문으로 교육 개입 효과나 생산성 향상률을 직접 입증하지 않음",
+    "use": "3영역 개념 강의, 업무 의미 재해석 질문"
+  },
+  {
+    "id": "E02",
+    "title": "Development and Validation of the Job Crafting Scale",
+    "who": "Tims, Bakker & Derks",
+    "year": "2012",
+    "kind": "측정도구 연구",
+    "domain": "잡크래프팅",
+    "url": "https://doi.org/10.1016/j.jvb.2011.05.009",
+    "support": "자원 증진·도전적 요구 증진·방해 요구 감소 등 네 가지 하위 차원을 구분",
+    "limit": "원전의 과업·관계·인지적 3영역과 동일한 분류가 아니며 연구척도 문항의 무단 전재는 피함",
+    "use": "자원·요구 분석, 척도 타당성 주의"
+  },
+  {
+    "id": "E03",
+    "title": "Effectiveness of Job Crafting Interventions: A Meta-analysis and Utility Analysis",
+    "who": "Oprea et al.",
+    "year": "2019",
+    "kind": "개입 메타분석",
+    "domain": "잡크래프팅",
+    "url": "https://doi.org/10.1080/1359432X.2019.1646728",
+    "support": "14개 적격 연구의 통합 분석에서 일부 잡크래프팅 행동·몰입 지표의 유의한 개선",
+    "limit": "직무성과 결과는 차원과 직군에 따라 달랐으며 모든 업종의 효과를 약속할 수 없음",
+    "use": "효과 측정 항목·파일럿 운영 가설"
+  },
+  {
+    "id": "E04",
+    "title": "Longitudinal Job Crafting Research: A Meta-Analysis",
+    "who": "Silapurem, Slemp & Jarden",
+    "year": "2024",
+    "kind": "종단 메타분석",
+    "domain": "잡크래프팅",
+    "url": "https://doi.org/10.1007/s41042-024-00159-0",
+    "support": "66개 고유 표본을 종합한 잡크래프팅 관련 선행요인·결과의 시간차 관계 검토",
+    "limit": "상관·종단 결과를 개별 강의의 인과 효과로 단정할 수 없음",
+    "use": "7·14일 추적과 장기 추적 설계"
+  },
+  {
+    "id": "E05",
+    "title": "Job Crafting™ Exercise",
+    "who": "University of Michigan / Center for Positive Organizations",
+    "year": "공식 안내",
+    "kind": "교육도구·기관",
+    "domain": "교육설계",
+    "url": "https://positiveorgs.bus.umich.edu/cpo-tool/job-crafting-exercise/",
+    "support": "직무를 구성 요소로 보고 가치·강점·열정과 재설계안을 연결하는 시각적 워크숍 활용",
+    "limit": "상용 도구이며 원본 워크북이나 그림·문항을 복제하지 않음",
+    "use": "독자적인 직무 재설계 실습 설계 참고"
+  },
+  {
+    "id": "E06",
+    "title": "Generative AI at Work",
+    "who": "Brynjolfsson, Li & Raymond",
+    "year": "2025",
+    "kind": "현장 실증연구",
+    "domain": "AI 업무",
+    "url": "https://doi.org/10.1093/qje/qjae044",
+    "support": "고객지원 상담원 5,172명 대상 연구에서 특정 AI 보조의 시간당 해결 건수 평균 약 15% 증가",
+    "limit": "단일 기업·직무·도구의 연구로 교육 효과나 다른 업무의 15% 개선을 의미하지 않음",
+    "use": "AI 보조 실험, 수준별 효과와 품질 비교"
+  },
+  {
+    "id": "E07",
+    "title": "AI RMF: Generative AI Profile",
+    "who": "NIST",
+    "year": "2024",
+    "kind": "AI 위험관리 지침",
+    "domain": "AI 업무",
+    "url": "https://doi.org/10.6028/NIST.AI.600-1",
+    "support": "생성형 AI의 위험을 식별·측정·관리하기 위한 자발적 위험관리 틀",
+    "limit": "법률 자문이나 특정 도구의 안전성 보증은 아님",
+    "use": "개인정보·오류·인간 검수·승인 체크리스트"
+  },
+  {
+    "id": "E08",
+    "title": "Evaluate Training: Measuring Effectiveness",
+    "who": "CDC",
+    "year": "2024",
+    "kind": "교육 평가 가이드",
+    "domain": "교육설계",
+    "url": "https://www.cdc.gov/training-development/php/about/evaluate-training-measuring-effectiveness.html",
+    "support": "학습 성취와 현업 전이를 구분해 측정하도록 권고",
+    "limit": "특정 잡크래프팅 과정의 효과를 입증한 연구는 아님",
+    "use": "교육 전·후, 7·14일·후속 측정 설계"
+  },
+  {
+    "id": "E09",
+    "title": "The Kirkpatrick Model",
+    "who": "Kirkpatrick / Evaluate Korea",
+    "year": "공식 안내",
+    "kind": "교육 평가 모델",
+    "domain": "교육설계",
+    "url": "https://www.kirkpatrick.co.kr/kpmodel",
+    "support": "반응·학습·행동·결과의 네 수준 평가 구분",
+    "limit": "수준별 측정은 인과 효과의 보증이 아니며 모델의 라이선스·표현에 주의",
+    "use": "평가 지표 체계 및 보고서 구조"
+  }
+]
